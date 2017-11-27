@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/express": "^4.0.35",
     "@types/node": "^8.0.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "typescript": "^2.6.1"
   }
 }
-
