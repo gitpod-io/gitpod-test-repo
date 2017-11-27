@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@typefox/poc-server",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "yarn serve",
+    "prepare": "yarn clean && yarn build",
+    "build": "tsc",
+    "build:clean": "yarn clean && yarn build",
+    "rebuild": "yarn build:clean",
+    "clean": "rimraf dist",
+    "serve": "node ./dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^8.0.0",
+    "rimraf": "^2.6.1"
+  }
+}
+
