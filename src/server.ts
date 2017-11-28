@@ -20,6 +20,6 @@ app.get("/test", (req: any, res: any) => {
     res.status(200).send(result);
 });
 
-const httpServer = app.listen(5555, () => {
+const httpServer = app.listen(3333, () => {
     console.log('Server listening on port %s.', httpServer.address().port);
 });
