@@ -1,2 +1,4 @@
 ports:
   - port: 5555
+tasks:
+  - command: "yarn && yarn serve"
