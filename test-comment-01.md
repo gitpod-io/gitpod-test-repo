@@ -1,3 +1,3 @@
-Foo
-BarBaz
+Bar
 Baz
+Bazz
