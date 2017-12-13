@@ -15,7 +15,7 @@ app.get("/", (req: any, res: any) => {
     res.status(200).send(result);
 });
 app.get("/test", (req: any, res: any) => {
-    let result = "Received a GET request on /test";
+    let result = "coolerer Text!"
     console.log(result);
     res.status(200).send(result);
 });
