@@ -1,4 +1,4 @@
-const express = require('express');
+import * as express from 'express';
 
 const app = express();
 
@@ -17,6 +17,12 @@ app.get("/", (req: any, res: any) => {
 
 app.get("/test", (req: any, res: any) => {
     let result = "Super cool text!"
+    console.log(result);
+    res.status(200).send(result);
+});
+
+app.get("/miau(\/files*)?", (req: express.Request, res: any) => {
+    let result = "Dynamic URL: " + req.originalUrl;
     console.log(result);
     res.status(200).send(result);
 });
