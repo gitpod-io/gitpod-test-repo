@@ -21,7 +21,7 @@ app.get("/test", (req: any, res: any) => {
     res.status(200).send(result);
 });
 
-app.get("/miau(\/files*)?", (req: express.Request, res: any) => {
+app.get("/miau((\/files|\/commits)*)?", (req: express.Request, res: any) => {
     let result = "Dynamic URL: " + req.originalUrl;
     console.log(result);
     res.status(200).send(result);
