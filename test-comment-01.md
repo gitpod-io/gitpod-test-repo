@@ -1,3 +1,4 @@
 Bar
-Baz
+Faz
 Bazz
+Foo
