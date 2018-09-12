@@ -10,3 +10,5 @@ USER gitpod
 RUN echo "export TEST_DOCKER=\"I was here for sure.\"" >> ~/bashrc
 RUN echo "export MIAU=\"mew\"" >> ~/bashrc
 RUN echo "export NEXT_CHANGE=\"mew\"" >> ~/bashrc
+
+USER root
