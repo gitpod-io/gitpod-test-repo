@@ -7,10 +7,7 @@ RUN apt-get update && apt-get install -y \
 
 USER gitpod
 
-RUN echo "export TEST_DOCKER=\"I was here for sure.\"" >> ~/.bashrc
-RUN echo "export MIAU=\"mew\"" >> ~/.bashrc
-RUN echo "export NEXT_CHANGE=\"mew\"" >> ~/.bashrc
+ENV TEST_DOCKER="I was here for sure"
 ENV ENV_TEST="somecontent"
-ARG ARG_TEST="argtest"
 
 USER root
