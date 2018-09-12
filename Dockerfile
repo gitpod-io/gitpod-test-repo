@@ -9,6 +9,6 @@ USER gitpod
 
 ENV TEST_DOCKER="I was here for sure"
 ENV ENV_TEST="somecontent"
-ENV NEXT_CHANGE="5"
+ENV NEXT_CHANGE="6"
 
 USER root
