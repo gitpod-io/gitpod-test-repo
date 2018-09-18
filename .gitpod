@@ -1,5 +1,4 @@
 image:
   file: Dockerfile
-  context: '.'
 tasks:
   command: 'echo "$TEST_DOCKER"'
