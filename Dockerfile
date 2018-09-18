@@ -1,6 +1,8 @@
 FROM gitpod/workspace-full:latest
 
 USER root
+COPY ./ /ctx
+
 RUN apt-get update && apt-get install -y \
     postgresql postgresql-contrib \
     && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
