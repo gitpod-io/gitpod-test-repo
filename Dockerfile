@@ -22,4 +22,4 @@ RUN mkfifo /home/gitpod/mysqld/mysqld.sock
 
 # Install diesel_cli
 ENV PATH="$HOME/.cargo/bin:$PATH"
-RUN cargo install diesel_cli --no-default-features --features postgres
+RUN cargo install diesel_cli --no-default-features --features mysql
