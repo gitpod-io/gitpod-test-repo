@@ -1,4 +1,4 @@
 image:
   file: Dockerfile
 tasks:
-  command: 'echo "$TEST_DOCKER"'
+  command: 'pg_ctl -D ~/pg/data/ -l ~/pg_log -o "-k ~/pg/sockets" start'
