@@ -1,4 +1,15 @@
 image:
   file: Dockerfile
 tasks:
-  command: 'pg_ctl -D ~/pg/data/ -l ~/pg_log -o "-k ~/pg/sockets" start'
+  command: >
+    echo DATABASE_URL=$DATABASE_URL >> .env &&
+    echo ROCKET_ADDRESS=$ROCKET_ADDRESS >> .env &&
+    echo ROCKET_PORT=$ROCKET_PORT >> .env &&
+    pg_start.sh &&
+    diesel setup &&
+    cargo build &&
+    cargo run
+ports:
+  - port: 8000
+    protocol: "http"
+  
