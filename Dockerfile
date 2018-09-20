@@ -18,12 +18,12 @@ pg_ctl -D ~/pg/data/ -l ~/pg/logs/log -o "-k ~/pg/sockets" stop' > ~/pg/scripts/
 RUN chmod +x ~/pg/scripts/*
 ENV PATH="$HOME/pg/scripts:$PATH"
 
+# Project specifics
 # Setup diesel_cli
 ENV PATH="$HOME/.cargo/bin:$PATH"
 RUN cargo install diesel_cli --no-default-features --features postgres
 
-# Project specifics
-# The (peer) dependencies are picky: We need the nightly build build on the 2018-04-14, meant for the 2018-04-15
+# Some transitive dependencies are very picky: We need the nightly build build on the 2018-04-14, meant for the 2018-04-15
 RUN rustup default nightly-2018-04-15
 # Set some environment variables
 ENV DATABASE_URL=postgres://gitpod@127.0.0.1/rust-web-with-rocket
