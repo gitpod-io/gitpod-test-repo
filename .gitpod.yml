@@ -1,0 +1,6 @@
+tasks:
+    - command: echo hello
+    - command: echo init
+      on: init
+    - command: echo restart
+      on: restart
