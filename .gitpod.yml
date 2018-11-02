@@ -5,9 +5,11 @@ tasks:
       on: init
       openIn: left
     - command: echo restart
+      name: Restart 1
       on: restart
       openIn: bottom
     - command: echo restart2
+      name: Restart 2
       on: restart
       openIn: bottom
       openMode: split-right
