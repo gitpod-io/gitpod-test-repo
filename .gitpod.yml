@@ -1,6 +1,13 @@
 tasks:
     - command: echo hello
+      openIn: right
     - command: echo init
       on: init
+      openIn: left
     - command: echo restart
       on: restart
+      openIn: bottom
+    - command: echo restart2
+      on: restart
+      openIn: bottom
+      openMode: split-right
