@@ -1,0 +1,6 @@
+tasks:
+    - command: echo foo
+      cwd: /workspace/
+    - command: echo bar
+      cwd: ~/
+      openMode: split-right
