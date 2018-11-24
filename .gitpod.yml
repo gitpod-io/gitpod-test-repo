@@ -1,0 +1,3 @@
+gitConfig:
+    foo: bar baz
+    test: "true"
