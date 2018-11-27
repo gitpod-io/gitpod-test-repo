@@ -1,15 +1,8 @@
 tasks:
-    - command: echo hello
-      openIn: right
-    - command: echo init
-      on: init
-      openIn: left
-    - command: echo restart
-      name: Restart 1
-      on: restart
-      openIn: bottom
-    - command: echo restart2
-      name: Restart 2
-      on: restart
-      openIn: bottom
+    - before: echo before
+      init: echo init
+      command: echo command
+    - before: echo before
+      init: echo init
+      command: echo command
       openMode: split-right
