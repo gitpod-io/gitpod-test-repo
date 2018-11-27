@@ -1,6 +1,8 @@
 tasks:
     - before: echo before
-      init: echo init
+      init: >
+         echo init &&
+         echo init2
       command: echo command
     - before: echo before
       init: echo init
