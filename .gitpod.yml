@@ -1,3 +1,5 @@
+image:
+    file: Dockerfile
 gitConfig:
     foo: bar baz
     test: "true"
