@@ -1,0 +1,2 @@
+tasks:
+- init: 'go get -v github.com/spf13/hugo && cd /workspace/src/github.com/spf13/hugo && go build'
