@@ -1,3 +1,4 @@
+image: mongo
 tasks:
     - before: echo before
       init: >
