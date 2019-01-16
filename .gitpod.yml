@@ -1,3 +1,1 @@
-gitConfig:
-    foo: bar baz
-    test: "true"
+image: gitpod/workspace-full:branch-ak_c_debug
