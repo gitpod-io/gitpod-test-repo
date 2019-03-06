@@ -1,11 +1,11 @@
 tasks:
-- command: while true; do echo "Here is #1"; sleep 1; done
-- command: while true; do echo "Here is #2"; sleep 1; done
-- command: while true; do echo "Here is #3"; sleep 1; done
-- command: while true; do echo "Here is #4"; sleep 1; done
-- command: while true; do echo "Here is #5"; sleep 1; done
-- command: while true; do echo "Here is #6"; sleep 1; done
-- command: while true; do echo "Here is #7"; sleep 1; done
-- command: while true; do echo "Here is #8"; sleep 1; done
-- command: while true; do echo "Here is #9"; sleep 1; done
-- command: while true; do echo "Here is #10"; sleep 1; done
+- command: 'while true; do echo "Here is #1"; sleep 1; done'
+- command: 'while true; do echo "Here is #2"; sleep 1; done'
+- command: 'while true; do echo "Here is #3"; sleep 1; done'
+- command: 'while true; do echo "Here is #4"; sleep 1; done'
+- command: 'while true; do echo "Here is #5"; sleep 1; done'
+- command: 'while true; do echo "Here is #6"; sleep 1; done'
+- command: 'while true; do echo "Here is #7"; sleep 1; done'
+- command: 'while true; do echo "Here is #8"; sleep 1; done'
+- command: 'while true; do echo "Here is #9"; sleep 1; done'
+- command: 'while true; do echo "Here is #10"; sleep 1; done'
