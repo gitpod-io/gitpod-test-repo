@@ -1,3 +1,2 @@
-gitConfig:
-    foo: bar baz
-    test: "true"
+image:
+  file: gitpod.Dockerfile
