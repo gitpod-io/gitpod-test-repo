@@ -1,0 +1,3 @@
+[submodule "foobar"]
+	path = foobar
+	url = https://this-doesososos-not-exist.com
