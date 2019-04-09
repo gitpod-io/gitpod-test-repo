@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "post-checkout run as user: $(whoami)" > users

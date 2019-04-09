@@ -1,3 +1,2 @@
 gitConfig:
-    foo: bar baz
-    test: "true"
+  core.hooksPath: .githooks
