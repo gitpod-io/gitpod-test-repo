@@ -1,3 +1,6 @@
 gitConfig:
     foo: bar baz
     test: "true"
+github:
+  prebuilds:
+    pullRequestsFromForks: true
