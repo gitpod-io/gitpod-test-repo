@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
 USER root
-RUN apt-get install -y uidmap
+RUN apt-get update && apt-get install -y uidmap
