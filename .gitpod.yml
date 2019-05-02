@@ -1,3 +1,2 @@
-github:
-  prebuilds:
-    pullRequestsFromForks: true
+image:
+  file: .gitpod.Dockerfile
