@@ -1,3 +1,1 @@
-github:
-  prebuilds:
-    pullRequestsFromForks: true
+image: node:11.15.0-stretch
