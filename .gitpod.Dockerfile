@@ -2,7 +2,7 @@ FROM gitpod/workspace-full
 
 
 USER root
-RUN apt-get update && apt-get install lib32z1 lib32ncurses5 libbz2-1.0:i386 libstdc++6:i386
+RUN apt-get update && apt-get install -yq lib32z1 lib32ncurses5 libbz2-1.0:i386 libstdc++6:i386
 RUN apt-get install g++
 
 USER gitpod
