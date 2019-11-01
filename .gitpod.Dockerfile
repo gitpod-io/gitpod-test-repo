@@ -1,3 +1,1 @@
-FROM gitpod/workspace-full:latest
-
-RUN exit 1
+FROM gitpod/workspace-ful:latest
