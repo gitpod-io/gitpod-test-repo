@@ -2,4 +2,4 @@ Bar
 Baz
 Bazz
 
-sadsddasHonolulu!
+Honolulu!
