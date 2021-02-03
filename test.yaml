@@ -1,0 +1,6 @@
+some:
+  tree:
+    structure:
+      alist:
+        - item1
+        - item2
