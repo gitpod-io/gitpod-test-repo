@@ -1,3 +1,5 @@
+img: this-is-not-a-valid-key
+
 github:
   prebuilds:
     pullRequestsFromForks: true
