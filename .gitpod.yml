@@ -1,4 +1,5 @@
-image: does-not-exist:invalid-tag
+image:
+  file: .gitpod/Dockerfile
 github:
   prebuilds:
     pullRequestsFromForks: true
