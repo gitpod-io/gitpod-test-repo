@@ -1,1 +1,1 @@
-FROM does-not-exist:invalid-ref
+FROM gitpod/workspace-full:invalid-ref
