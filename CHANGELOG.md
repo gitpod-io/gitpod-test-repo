@@ -1,6 +1,7 @@
 # Change Log
 
 ## August 2021
+- none: [changelog] next ([#134](https://github.com/gitpod-io/gitpod-test-repo/pull/134)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - none: [changelog] next ([#133](https://github.com/gitpod-io/gitpod-test-repo/pull/133)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - none: Delete CHANGELOG.md ([#132](https://github.com/gitpod-io/gitpod-test-repo/pull/132)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - none: [changelog] next ([#131](https://github.com/gitpod-io/gitpod-test-repo/pull/131)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
