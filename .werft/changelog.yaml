@@ -30,7 +30,7 @@ pod:
         export GIT_BRANCH=${GIT_REF/refs\/heads\//}
         git checkout $GIT_BRANCH
         /app/changelog -t $GITHUB_TOKEN -o {{ .Repository.Owner }} -r {{ .Repository.Repo }} -b $GIT_BRANCH
-        if [[ $(git status --porcelain) ]] ; then
+        if test $(git status --porcelain) ; then
           git config --global user.name $GITHUB_USER
           git config --global user.email $GITHUB_EMAIL
           git config --global credential.helper '/bin/sh -c "echo username=$GITHUB_USER; echo password=$GITHUB_TOKEN"'
