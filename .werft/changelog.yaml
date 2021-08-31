@@ -28,7 +28,7 @@ pod:
         export GITHUB_TOKEN=$(echo $GITHUB_TOKEN | xargs)
         export GIT_REF={{ .Repository.Ref }}
         export GIT_BRANCH=${GIT_REF/refs\/heads\//}
-        git switch -c $GIT_BRANCH
+        git checkout $GIT_BRANCH
         /app/changelog -t $GITHUB_TOKEN -o {{ .Repository.Owner }} -r {{ .Repository.Repo }} -b $GIT_BRANCH
         git config --global user.name $GITHUB_USER
         git config --global user.email $GITHUB_EMAIL
