@@ -26,10 +26,12 @@ pod:
         set -Eeuo pipefail
 
         export GITHUB_TOKEN=$(echo $GITHUB_TOKEN | xargs)
-        /app/changelog -t $GITHUB_TOKEN -o {{ .Repository.Owner }} -r {{ .Repository.Repo }} -f CHANGELOG.md
+        export GIT_REF={{ .Repository.Ref }}
+        export GIT_BRANCH=${GIT_REF/refs\/heads\//}
+        /app/changelog -t $GITHUB_TOKEN -o {{ .Repository.Owner }} -r {{ .Repository.Repo }} -b $GIT_BRANCH
         git config --global user.name $GITHUB_USER
         git config --global user.email $GITHUB_EMAIL
         git config --global credential.helper '/bin/sh -c "echo username=$GITHUB_USER; echo password=$GITHUB_TOKEN"'
         git add CHANGELOG.md
         git commit -m "[changelog] updated changelog"
-        git push
+        git push origin HEAD/$GIT_BRANCH
