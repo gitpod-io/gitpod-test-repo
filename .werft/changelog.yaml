@@ -5,14 +5,14 @@ pod:
     cloud.google.com/gke-nodepool: builds
   containers:
   - name: build
-    image: eu.gcr.io/gitpod-core-dev/dev/changelog:0.0.6
+    image: eu.gcr.io/gitpod-core-dev/dev/changelog:0.0.7
     workingDir: /workspace
     imagePullPolicy: Always
     env:
     - name: GITHUB_USER
-      value: gitpod
+      value: roboquat
     - name: GITHUB_EMAIL
-      value: service+github@gitpod.io
+      value: roboquat@gitpod.io
     - name: GITHUB_TOKEN
       valueFrom:
         secretKeyRef:
