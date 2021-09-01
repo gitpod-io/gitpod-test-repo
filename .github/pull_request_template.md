@@ -1,32 +1,20 @@
-<!--  Thanks for sending a pull request!  Here are some tips for you:
+## Description 
+<!-- Describe your changes in detail -->
 
-1. Please add a release note!
-2. If the PR is unfinished while opening it specify a wip in the title before the actual title, for example, "wip: my awesome feature"
--->
-
-**What this PR does / why we need it**:
-
-**Which issue(s) this PR fixes**:
-
-<!--
-Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
--->
-
+## Related Issue(s)
+<!-- List the issue(s) this PR solves -->
 Fixes #
 
-**Special notes for your reviewer**:
+## How to test
+<!-- Provide steps to test this issue -->
 
-**Does this PR introduce a user-facing change?**:
-
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended release note in the block below.
-If the PR requires additional action from users switching to the new release, prepend the string "action required:".
-For example, `action required: change the API interface of the rule engine`.
+## Release Notes
+<!-- 
+  Add entries for the CHANGELOG.md or "NONE" if there aren't any user facing changes
+  Format: <type> [(<optional scope>)] [!<optional for breaking>] : <description>
+  Example: fix(server)!: users have to log in with their real names now
+  See https://www.conventionalcommits.org/en/v1.0.0/#examples for details
 -->
-
 ```release-note
 
 ```
