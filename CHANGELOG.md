@@ -1,6 +1,9 @@
 # Change Log
 
-## August 2021
+## September 2021
+-  docs(misc): Add a bit of text. ([#142](https://github.com/gitpod-io/gitpod-test-repo/pull/142)) - [@mikenikles](https://github.com/mikenikles)
+
+##  August 2021
 -  foo(bar): baz ([#130](https://github.com/gitpod-io/gitpod-test-repo/pull/130)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 -  a(b): c ([#127](https://github.com/gitpod-io/gitpod-test-repo/pull/127)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 -  foobar(baz): b ([#126](https://github.com/gitpod-io/gitpod-test-repo/pull/126)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
