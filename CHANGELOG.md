@@ -1,6 +1,7 @@
 # Change Log
 
 ## September 2021
+- *BREAKING* dogs are gone ([#144](https://github.com/gitpod-io/gitpod-test-repo/pull/144)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - *BREAKING* the dog will prevail ([#143](https://github.com/gitpod-io/gitpod-test-repo/pull/143)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - docs(misc): Add a bit of text. ([#142](https://github.com/gitpod-io/gitpod-test-repo/pull/142)) - [@JanKoehnlein](https://github.com/JanKoehnlein), [@mikenikles](https://github.com/mikenikles)
 
