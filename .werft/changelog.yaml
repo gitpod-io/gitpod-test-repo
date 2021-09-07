@@ -37,7 +37,7 @@ pod:
           git config --global credential.helper '/bin/sh -c "echo username=$GITHUB_USER; echo password=$GITHUB_TOKEN"'
           git add CHANGELOG.md
           git commit -m "[changelog] updated changelog"
-          git push origin $PR_BRANCH
+          git push --set-upstream origin $PR_BRANCH
           echo $GITHUB_TOKEN | gh auth logion --with-token
           /app/gh pr create -t "[changelog] updated changelog" -p "Engineering Groundwork" -b "Update the changelog from recent PR descriptions\n\n```release-note\n```" -H $PR_BRANCH
         fi
