@@ -5,7 +5,7 @@ pod:
     cloud.google.com/gke-nodepool: builds
   containers:
   - name: build
-    image: eu.gcr.io/gitpod-core-dev/dev/changelog:0.0.17
+    image: eu.gcr.io/gitpod-core-dev/dev/changelog:0.0.18
     workingDir: /workspace
     imagePullPolicy: Always
     env:
@@ -16,7 +16,7 @@ pod:
     - name: GITHUB_TOKEN
       valueFrom:
         secretKeyRef:
-          name: github-sh-release-token
+          name: github-roboquat-automatic-changelog
           key: token
     command:
       - bash
