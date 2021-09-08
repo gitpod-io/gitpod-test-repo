@@ -1,4 +1,5 @@
-image: eu.gcr.io/gitpod-core-dev/dev/dev-environment:aledbf-deve.7
+image:
+  file: .gitpod.Dockerfile
 github:
   prebuilds:
     pullRequestsFromForks: true
