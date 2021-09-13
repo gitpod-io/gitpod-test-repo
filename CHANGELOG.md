@@ -1,6 +1,9 @@
 # Change Log
 
 ## September 2021
+- [changelog] updated to 0.0.22 ([#156](https://github.com/gitpod-io/gitpod-test-repo/pull/156)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
+- changelog new token ([#155](https://github.com/gitpod-io/gitpod-test-repo/pull/155)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
+- [changelog] updated changelog ([#153](https://github.com/gitpod-io/gitpod-test-repo/pull/153)) - [@roboquat](https://github.com/roboquat)
 - Foo ([#152](https://github.com/gitpod-io/gitpod-test-repo/pull/152)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - *BREAKING* everything will fail ([#147](https://github.com/gitpod-io/gitpod-test-repo/pull/147)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - *BREAKING* dogs are gone ([#144](https://github.com/gitpod-io/gitpod-test-repo/pull/144)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
