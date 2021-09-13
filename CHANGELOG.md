@@ -1,6 +1,7 @@
 # Change Log
 
 ## September 2021
+- [changelog] updated changelog ([#178](https://github.com/gitpod-io/gitpod-test-repo/pull/178)) - [@roboquat](https://github.com/roboquat)
 - [changelog] updated changelog ([#177](https://github.com/gitpod-io/gitpod-test-repo/pull/177)) - [@roboquat](https://github.com/roboquat)
 - [changelog] updated changelog ([#176](https://github.com/gitpod-io/gitpod-test-repo/pull/176)) - [@roboquat](https://github.com/roboquat)
 - [changelog] updated changelog ([#175](https://github.com/gitpod-io/gitpod-test-repo/pull/175)) - [@roboquat](https://github.com/roboquat)
