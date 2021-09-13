@@ -1,4 +1,4 @@
-# Change Log
+# Change Log 
 
 ## September 2021
 - Foo ([#152](https://github.com/gitpod-io/gitpod-test-repo/pull/152)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
