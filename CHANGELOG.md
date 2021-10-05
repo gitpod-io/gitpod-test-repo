@@ -1,13 +1,5 @@
 # Change Log 
 
-## September 2021
-- Foo ([#152](https://github.com/gitpod-io/gitpod-test-repo/pull/152)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
-- *BREAKING* everything will fail ([#147](https://github.com/gitpod-io/gitpod-test-repo/pull/147)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
-- *BREAKING* dogs are gone ([#144](https://github.com/gitpod-io/gitpod-test-repo/pull/144)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
-- Ah the dogs ([#145](https://github.com/gitpod-io/gitpod-test-repo/pull/145)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
-- *BREAKING* the dog will prevail ([#143](https://github.com/gitpod-io/gitpod-test-repo/pull/143)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
-- docs(misc): Add a bit of text. ([#142](https://github.com/gitpod-io/gitpod-test-repo/pull/142)) - [@JanKoehnlein](https://github.com/JanKoehnlein), [@mikenikles](https://github.com/mikenikles)
-
 ## August 2021
 - foo(bar): baz ([#130](https://github.com/gitpod-io/gitpod-test-repo/pull/130)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 - a(b): c ([#127](https://github.com/gitpod-io/gitpod-test-repo/pull/127)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
