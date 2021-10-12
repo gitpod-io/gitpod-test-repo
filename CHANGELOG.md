@@ -1,6 +1,7 @@
 # Change Log
 
 ## October 2021
+- None ([#199](https://github.com/gitpod-io/gitpod-test-repo/pull/199)) - [@csweichel](https://github.com/csweichel)
 - Hi there! ([#196](https://github.com/gitpod-io/gitpod-test-repo/pull/196)) - [@JanKoehnlein](https://github.com/JanKoehnlein)
 
 ## September 2021
