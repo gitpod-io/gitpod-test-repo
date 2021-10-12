@@ -8,3 +8,5 @@ reviewers:
   - ArthurSens
   - csweichel
   - JanKoehnlein
+labels:
+  - cool-pr
