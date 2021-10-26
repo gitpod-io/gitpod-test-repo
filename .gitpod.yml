@@ -1,3 +1,4 @@
 github:
   prebuilds:
     pullRequestsFromForks: true
+experimentalNetwork: true
