@@ -1,4 +1,6 @@
 github:
   prebuilds:
     pullRequestsFromForks: true
+tasks:
+- command: "echo done"
 experimentalNetwork: true
