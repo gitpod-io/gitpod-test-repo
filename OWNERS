@@ -4,9 +4,11 @@ approvers:
   - leodido
   - JanKoehnlein
   - roboquat
+  - mads-hartmann
 reviewers:
   - ArthurSens
   - csweichel
   - JanKoehnlein
+  - mads-hartmann
 labels:
   - cool-pr
