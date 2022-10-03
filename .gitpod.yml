@@ -2,5 +2,5 @@ github:
   prebuilds:
     pullRequestsFromForks: true
 additionalRepositories:
-  - url: https://github.com/gitpod-io/website
+  - url: https://github.com/gitpod-io/website/tree/aledbf/test-multi-repo-with-branches
   - url: https://github.com/gitpod-io/example-typescript-starter
