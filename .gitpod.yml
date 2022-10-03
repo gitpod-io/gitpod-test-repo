@@ -2,3 +2,6 @@ image: eu.gcr.io/gitpod-core-dev/dev/dev-environment:aledbf-deve.7
 github:
   prebuilds:
     pullRequestsFromForks: true
+additionalRepositories:
+  - url: https://github.com/gitpod-io/website
+  - url: https://github.com/gitpod-io/example-typescript-starter
