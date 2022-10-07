@@ -4,3 +4,7 @@ github:
   prebuilds:
     master: true
     branches: true
+
+tasks:
+  - name: yarn init
+    init: yarn
