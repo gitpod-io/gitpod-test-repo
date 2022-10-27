@@ -1,4 +1,0 @@
-rules:
-- path: ".werft/changelog.yaml"
-  matchesAll:
-  - or: ["repo.ref ~= refs/heads/1test"]
