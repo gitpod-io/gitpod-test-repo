@@ -1,2 +1,4 @@
 tasks:
+  # Create an empty dir and serve that, by default python3's http.server serves the current dir,
+  # which we don't want to expose through a public port.
   - command: mkdir -p empty-dir && python3 -m http.server 3000 -d empty-dir
