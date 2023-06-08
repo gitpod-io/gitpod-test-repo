@@ -1,4 +1,2 @@
-image: eu.gcr.io/gitpod-core-dev/dev/dev-environment:aledbf-deve.7
-github:
-  prebuilds:
-    pullRequestsFromForks: true
+tasks:
+  - command: mkdir -p empty-dir && python3 -m http.server 3000 -d empty-dir
