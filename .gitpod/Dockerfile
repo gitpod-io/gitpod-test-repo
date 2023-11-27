@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full:latest
 
-ENV TRIGGER=1
+ENV TRIGGER=2
 
 RUN bash -c "for i in $(seq 1 600); do echo \"$i\"; sleep 1; done"
